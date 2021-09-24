@@ -1,0 +1,47 @@
+[
+    {
+        "question": "<input> is -",
+        "optionA": "a format tag.",
+        "optionB": "an empty tag.",
+        "optionC": "All of the above",
+        "optionD": "None of the above",
+        "answer": "an empty tag."
+    },
+    {
+        "question": "Everything in React is a ",
+        "optionA": "Module",
+        "optionB": "Component",
+        "optionC": "Package",
+        "optionD": "Class",
+        "answer": "Component"
+    },
+    {
+        "question": "CSS stands for -",
+        "optionA": "Cascade style sheets",
+        "optionB": "Color and style sheets",
+        "optionC": "Cascading style sheets",
+        "optionD": "None of the above",
+        "answer": "Cascading style sheets"
+    },
+    
+    {
+        "question": " In React, component properties should be kept in an object called?",
+        "optionA": "component",
+        "optionB": "super",
+        "optionC": "state",
+        "optionD": "props",
+        "answer": "state"
+    },
+    {
+        "question": "The default value of 'position' attribute is _________.",
+        "optionA": "fixed",
+        "optionB": "absolute",
+        "optionC": "inherit",
+        "optionD": "relative",
+        "answer": "relative"
+    }
+]
+
+
+
+

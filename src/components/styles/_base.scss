@@ -1,0 +1,43 @@
+//Font Stylings
+$montserrat :'Montserrat', sans-serif;
+
+
+//colors
+$green: #57b846;
+$off-white: #f7f7f7;
+$off-black: #333;
+$red: #ea4355;
+$blue: #1da1f2;
+
+//Sizes
+$xs : 0.5rem;
+$normal : 1rem;
+$sm : 1.5rem;
+$md: 2rem;
+$lg : 3rem;
+$xlg : 5rem;
+$xxlg : 7rem;
+$button-radius: 30px;
+
+// Breakpoints
+$lg-breakpoints: 1024px;
+$md-breakpoints: 768px;
+$sm-breakpoints: 681px;
+$xs-breakpoints: 480px;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.toast-invalid{
+    background-color: #f44336;
+    border-radius: 5px !important;
+    color: $off-white;
+}
+
+.toast-valid{
+    background-color: #4caf50;
+    border: 5px !important;
+    color: $off-white !important;
+}

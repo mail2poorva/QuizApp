@@ -1,0 +1,121 @@
+
+$montserrat :'Montserrat', sans-serif;
+
+
+//colors
+$green: #57b846;
+$off-white: #f7f7f7;
+$red: #ea4355;
+$blue: #1da1f2;
+
+//Sizes
+$xs : 0.5rem;
+$normal : 1rem;
+$sm : 1.5rem;
+$md: 2rem;
+$lg : 3rem;
+$xlg : 5rem;
+$xxlg : 7rem;
+$button-radius: 30px;
+
+// Breakpoints
+$lg-breakpoints: 1024px;
+$md-breakpoints: 768px;
+$sm-breakpoints: 681px;
+$xs-breakpoints: 480px;
+
+//*************************************************************//
+#home{
+    background-image: url('./assets/img/bg-image.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    font-family: $montserrat;
+
+    section{
+        background-color: rgba(0, 0, 0, 0.7);
+        padding-left: $md;
+        padding-right: $md;
+        padding-top: 50px;
+        height: 80%;
+        margin: auto auto;
+        width: 35%;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+
+    .logo{
+        width: 150px;
+        margin-left: 160px;
+        // padding-left: 210px;
+        padding-bottom: 20px;
+        
+    }
+    h1{
+        font-size: $lg;
+        text-align: center;
+        color: $off-white;
+        font-weight: 500;
+        
+    }
+
+    .play-button-container{
+        width: 100%;
+        text-align: center;
+    }
+    li{
+        list-style: none;
+    }
+    .play-button{
+        text-decoration: none;
+        margin-top: 80px;  
+        color: #fff; 
+        padding-bottom: 38px;
+
+        // &:hover{
+        //     background-color: darken($green,10%);
+        // }
+    }
+
+
+    .auth-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+
+        #login-btn{
+                padding-bottom: 36px;
+                margin-right: 10px;
+        }
+
+
+        #signup-btn{
+            padding-bottom: 35px;
+        }
+        
+        &-btn{
+            color: #fff;
+            width: 46%;
+            text-decoration: none;
+        }
+    }
+}
+
+
+@media(max-width: 768px)
+{
+    #home section{
+      padding: 0 $normal;
+      width: 100%;
+      height: 100%; 
+    }
+}
+
+
+
+.submit{
+    margin-top: 30px;
+}
